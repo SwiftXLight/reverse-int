@@ -1,11 +1,3 @@
-module.exports = function reverse (n) {
-      return (
-      parseFloat(
-        n
-          .toString()
-          .split('')
-          .reverse()
-          .join('')
-      ) * Math.sign(n)
-    )     
+function reverse(n) {  
+  return Number(Array.from(String(Math.abs(n))).reverse().join('')) * Math.sign(n);
 }
