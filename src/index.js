@@ -1,4 +1,4 @@
-function reversedNum(num) {
+function reverse(num) {
   return (
     parseFloat(
       num
