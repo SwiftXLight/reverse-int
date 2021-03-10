@@ -9,3 +9,4 @@ function reverse(num) {
     )
   )                 
 }
+reverse();
